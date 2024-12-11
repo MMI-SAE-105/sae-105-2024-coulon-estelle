@@ -8,8 +8,6 @@
       name="description"
       content="Le Sci-fistival adore explorer de nouvelles façons de célébrer la science-fiction et d'atteindre de nouveaux sommets de créativité à travers des projections, des ateliers et des rencontres avec des artistes passionnés."
     />
-
-    
     <title>Sci-fistival</title>
 
     <link
@@ -30,6 +28,72 @@
     <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
   </head>
+  <body>
+    <header class="header">
+      <a class="header__logo-link" href="/">
+        <img
+          class="header__logo"
+          src="/assets/favicons/favicon_io/favicon-32x32.png"
+          alt="Logo Sci-fistival"
+        />
+      </a>
+      <h1 class="header__title">SCI-FISTIVAL</h1>
+    
+    <title>Sci-fistival</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicons/favicon_io/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+    <button
+        class="header__menu-btn menu-btn"
+        aria-label="menu"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="Billetterie.html">BILLETERIE</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#"">INSCRIPTION</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">PROGRAMMATION</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">INFO FESTIVAL</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">LISTE</a>
+          </li>
+        </ul>
+        <div class="menu__secondaire">
+          <ul
+            class="menu__social-network list-unstyled"
+            aria-label="Social media"
+          >
+          </ul>
+        </div>
+      </nav>
+  </head>
 
     <main>
         <div class="hero hero--billetterie">
@@ -41,23 +105,84 @@
 
     <body>
         <h1>Billetterie</h1>
-    
-        <button>
-    <header class="section__body--billetterie">
-      <h3 class="section__body--billetterie__samedi">
-        Samedi 14 avril
-      </h3>
-    </button>
-    <button>
-        <header class="section__body--billetterie">
-          <h3 class="section__body--billetterie__dimanche">
-            Dimanche 15 avril
-          </h3>
+        <section class="accordéon">
+            <button>
+        <header class="accordéon--billetterie">
+        <p class="accordéon--billetterie__samedi">
+            Samedi 14 avril
+        </p>
         </button>
         <button>
-            <header class="section__body--billetterie">
-              <h3 class="section__body--billetterie__pass">
-                PASS 2 jours
-              </h3>
+            <header class="accordéon--billetterie">
+            <p class="accordéon--billetterie__dimanche">
+                Dimanche 15 avril
+            </p>
             </button>
+            <button>
+                <header class="accordéon--billetterie">
+                <p class="accordéon--billetterie--billetterie__pass">
+                    PASS 2 jours
+                </p>
+                </button>
+        </section>
+                <section class="panier">
+                <div class="rectangle" style="width: 337px; height: 270px; background-color: #ffffff;"></div>
+                <img class="panier__image"
+              src="public/images/image-25.png"
+              alt=""
+              />
+              <p class="panier__texte">
+                <span class="panier__texte--panier">Panier</span>
+                <hr />
+                <span class="panier__texte--quantité">Quantité</span>
+                <hr />
+                <span class="panier__texte--total">Total TTC</span>
+                </p>
+                <button class="panier__btn">
+                    <img
+                  src="public/images/arrow-1.svg"
+                  alt=""
+                  />
+                  <a href="#">Réserver</a>
+                    </button> 
+            </section>
+
+            <footer class="footer">
+                <a href="/">
+                  <img
+                    class="footer__logo"
+                    src="/assets/favicons/favicon_io/favicon-32x32.png"
+                    alt="Logo Sci-fistival"
+                  />
+                </a>
+                <p class="footer__contact"> contact </p>
+                <p class="footer__Á-Propos"> Á Propos </p>
+                  <p class="footer__text">
+                    Estelle Coulon
+                    Département MMI
+                    4, place Lucien Tharradin,
+                    25200 Montbéliard
+                  </p>
+                  <img
+                    class="footer__facebook"
+                    src="public/images/facebook.svg"
+                    alt="Logo Sci-fistival"
+                  />
+                  <img
+                    class="footer__instagram"
+                    src="public/images/instagram.svg"
+                    alt="Logo Sci-fistival"
+                  />
+                  <img
+                    class="footer__twitter"
+                    src="public/images/twitter.svg"
+                    alt="Logo Sci-fistival"
+                  />
+                  <img
+                    class="footer__youtube"
+                    src="public/images/youtube.svg"
+                    alt="Logo Sci-fistival"
+                  />
+                </a>
+              </footer>
     </body>
