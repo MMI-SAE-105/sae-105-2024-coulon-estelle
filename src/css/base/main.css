@@ -121,6 +121,9 @@ textarea {
   text-align: center;
 }
 .prog--affiche__image{
-size-adjust: 50%;
+width: 50%;
+margin-left: 100px;
 }
-prog--affiche__réal
+.prog--affiche__réal{
+text-align: center;
+}
