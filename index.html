@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Le Sci-fistival adore explorer de nouvelles façons de célébrer la science-fiction et d'atteindre de nouveaux sommets de créativité à travers des projections, des ateliers et des rencontres avec des artistes passionnés."
-    />
+      content="Le Sci-fistival adore explorer de nouvelles façons de célébrer la science-fiction et d'atteindre de nouveaux sommets de créativité à travers des projections, des ateliers et des rencontres avec des artistes passionnés."/>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/src/css/carousel.css">
+      <script type="module" src="/src/js/script.js"></script>
 
     <title>Sci-fistival</title>
 
@@ -76,25 +79,18 @@
         </div>
       </nav>
     </header>
-
-    <main class="hero"><
-      <img
-      class="hero__img"
-      src="assets/img/font/image_acceuil.webp"
-      alt="femme robot"
-    />
-      <div class="hero hero--home">
-        <h1 class="hero__title hero__title--home">Sci-fistival</h1>
-        <h2 class="hero__chapo">
-          Ce festival n'existe pas sans vous
-        </h2>
-        <h1 class="hero__date">
-            14 & 15
-            MARS 2025
-        </h1>
-        <h3 class="hero__adresse">
-            2 Rue André Parant, 90000 Belfort
-        </h3>
+    <div class="hero hero--home">
+    <div style="position:relative; height:400px">
+      <div style="position:absolute;z-index:0">
+         <img src="assets/img/font/image_acceuil.webp">
+      </div>
+      <div style="position:absolute;top:50px; width:200px; height:250px; margin-left:85px ; z-index:0;color: white ; font-size:200%">
+         <center><b class="hero__title hero__title--home">Sci-fistival</b></center>
+         <center><b class="hero__chapo"> Ce festival n'existe pas sans vous</b></center>
+         <center><b class="hero__date">14 & 15</b></center>
+         <center><b class="hero__date">MARS 2025</b></center>
+         <center><b class="hero__adresse">2 Rue André Parant, 90000 Belfort</b></center>
+        </div>
       </div>
     </main>
 
@@ -136,29 +132,26 @@
                   />
                   <a href="#">Programmation</a>
                     </button>
-                    <h2 class="section__body--partenaire">
+                    <h2 class="section__body__chapo">
                       Nos partenaires
                     </h2>
-                    <img
-          class="section__body--partenaire"
-          src="/assets/img/partenaires/grand-est.webp"
-          alt="Grand-est"
-          />
-          <img
-          class="section__body--partenaire"
-          src="/assets/img/partenaires/le-monde.webp"
-          alt="Le Monde"
-          />
-          <img
-          class="section__body--partenaire"
-          src="/assets/img/partenaires/pass-culture.webp"
-          alt="Pass Culture"
-          />
-          <img
-          class="section__body--partenaire"
-          src="/assets/img/partenaires/gouvernement.webp"
-          alt="Gouvernement"
-          />
+                    <div class="carousel" aria-labelledby="carousel__heading">
+                      <div class="carousel__container" role="region" aria-live="polite">
+                        <div id="carousel_item-1" class="carousel__item">
+                          <img src="/assets/img/partenaires/grand-est.webp" alt="Image musique 1" />
+                        </div>
+                        <div id="carousel_item-2" class="carousel__item">
+                          <img src="/assets/img/partenaires/le-monde.webp" alt="Image musique 2" />
+                        </div>
+                        <div id="carousel_item-3" class="carousel__item">
+                          <img src="/assets/img/partenaires/pass-culture.webp" alt="Image musique 3" />
+                        </div>
+                      </div>
+                    </div>
+
+                      
+                                          
+                                           
                   </body>
 
     <footer class="footer">
@@ -168,36 +161,42 @@
           src="/assets/favicons/favicon_io/favicon-32x32.png"
           alt="Logo Sci-fistival"
         />
-      </a>
-      <a class="footer__link" href="contact.html"> contact </a>
-      <a class="footer__link" href="a_propos.html"> Á Propos </a>
-        <p class="footer__text">
-          Estelle Coulon
-          Département MMI
-          4, place Lucien Tharradin,
-          25200 Montbéliard
-        </p>
-        <img
-          class="footer__icon"
-          src="public/images/facebook.svg"
-          alt="Logo Sci-fistival"
-        />
-        <img
-          class="footer__icon"
-          src="public/images/instagram.svg"
-          alt="Logo Sci-fistival"
-        />
-        <img
-          class="footer__icon"
-          src="public/images/twitter.svg"
-          alt="Logo Sci-fistival"
-        />
-        <img
-          class="footer__icon"
-          src="public/images/youtube.svg"
-          alt="Logo Sci-fistival"
-        />
-      </a>
+        <div class="footer_titre">
+
+          <a href="contact.html"><h3>Contact</h3></a>
+          <a href="apropos.html"><h3>À propos</h3></a>
+          <h3></h3class>Estelle Coulon</h3>
+          <h3></h3class>Département MMI</h3>
+          <h3></h3class>4, place Lucien Tharradin, 25200 Montbéliard</h3>
+        </div>
+          <div class="footer_reseaux">
+
+            <img class="footer_reseau" src="assets/icons/Facebook.png" alt="facebook">
+
+            <img class="footer_reseau" src="/assets/icons/instagram.png" alt="instagram">
+
+            <img class="footer_reseau" src="/assets/icons/twitter.png" alt="TikTok">
+
+            <img class="footer_reseau" src="/assets/icons/youtube.png" alt="youtube">
+
+          </div>
+
+          <ul class="menuterms list-unstyled" aria-label="Legal information">
+
+              <a
+                class="footer_mentions"
+                href="terms-conditions.html"
+                >mentions légales</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer_politique"
+                href="privacy-policy.html"
+                >politique de confidentialité</a
+              >
+            </li>
+          </ul>
     </footer>
   </body>
 </html>

@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--bleu-canard);
   }
   
   .menu-btn__bar,
@@ -80,7 +81,7 @@
   .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
   .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(135deg);
-    background: var(--white);
+    background: var(--blanc);
   }
   
   .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
