@@ -4,8 +4,8 @@
   position: fixed;
   inset: 0;
   z-index: 1;
-  background-color: var(--herder);
-  color: var(--black);
+  background-color: var(--noir);
+  color: var(--vert);
   flex-direction: column;
   justify-content: space-between;
   padding: var(--space5x) var(--space3x) var(--space3x);
@@ -18,14 +18,17 @@
 }
 
 .menu__link {
-  color: var(--black);
+  color: var(--vert);
   text-decoration: none;
   font-size: var(--fs-xl);
   display: block;
+  border-bottom: 1px solid var(--vert);
+  margin-top: 50%;
+  font-family: "jersey 25"; 
+  font-size: 1.5em;
 }
 
 .menu__link--silent {
-  color: var(--gray-600);
   font-size: var(--fs-s);
 }
 
@@ -33,7 +36,10 @@
   margin-bottom: var(--space3x);
   text-align: center;
   padding-bottom: var(--space1x);
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(--vert);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu__social-network,
@@ -57,7 +63,7 @@
 .menu-btn__bar::before,
 .menu-btn__bar::after {
   content: "";
-  background: var(--black);
+  background: var(--vert);
   height: 2px;
   width: 100%;
   position: absolute;
@@ -81,7 +87,7 @@ Ne pas oublier d'ajouter une transition plus haut pour l'animation */
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
   transform: rotate(135deg);
-  background: var(--black);
+  background: var(--vert);
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,

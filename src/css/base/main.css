@@ -69,3 +69,58 @@ textarea {
   padding: 4px var(--space1x);
   font-weight: 500;
 }
+
+.contact__rectangle {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.contact__title {
+  font-family: "Jersey 25";
+  font-size: 1.5rem;
+  text-align: center; 
+}
+
+.contact__text {
+  font-family: "Jersey 15";
+  text-align: center;
+  margin-right: 10px;
+}
+
+.contact__rectangle__text {
+  color: var(--blanc);
+  margin-left: 45px;
+}
+
+.contact__rectangle__button {
+  background-color: var(--rouge);
+  border-radius: 25px;
+  width: 185px;
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.contact__rectangle--ovale,
+.contact__rectangle--bigovale {
+  margin-left: 45px;
+}
+
+.info__title {
+  font-family: "Jersey 25";
+  font-size: 1.5rem;
+  text-align: center; 
+}
+.section__title{
+  position: relative;
+}
+.prog--affiche__date{
+  text-align: center;
+}
+.prog--affiche__heure{
+  text-align: center;
+}
+.prog--affiche__image{
+size-adjust: 50%;
+}
+prog--affiche__réal
