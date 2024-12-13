@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Coulon
+- PRÉNOM : Estelle
+- GROUPE : A1
+- URL du site : https://famous-starlight-692df6.netlify.app
+- URL FIGMA : https://www.figma.com/design/hiOtyMQS6tGcD4MYXNfith/sci-fistival?node-id=2002-149&m=dev&t=BHntXaNVCMZRW3pC-1
 
 ## Sujet
 
